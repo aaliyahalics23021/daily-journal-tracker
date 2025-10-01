@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Daily Journal Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>📖 Daily Journal Tracker</h1>
+    <div class="entry-form">
+        <input type="text" id="title" placeholder="Entry Title">
+        <textarea id="content" placeholder="Write your thoughts..."></textarea>
+        <button onclick="saveEntry()">💾 Save Entry</button>
+    </div>
+
+    <h2>Previous Entries</h2>
+    <div id="entries" class="entries"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
